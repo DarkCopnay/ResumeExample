@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif !important;
+    line-height: 24px;
+}
+
+body {
+    background: var(--bg-color);
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    color: var(--white-color);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+img {
+    border-radius: var(--border-radius);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+span,
+p {
+    font-size: var(--font-size-3) !important;
+}
